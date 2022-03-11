@@ -1,0 +1,32 @@
+<%- include('./partials/header.ejs') %>
+<div class="container-fluid">
+    <div class="row">
+        <!-- 2 cols out of 12 column -->
+        <div class="col-sm-2">
+          <%- include('./partials/sidebar.ejs', {page_name : 'Skill'} ) %>
+        </div>
+        <div class="col-sm-10">
+   <!-- Start Main Content -->
+   <div class="container mt-5">
+    <h1 style="text-align: center" class="main-col mb-5 st-font">SKILLS</h1>
+    <div class="skill_items">
+        <div class="st-font1 skills" href="#"><i class="fab fa-html5 skills-icon"></i> HTML</div>
+        <div class="st-font1 skills" href="#"><i class="fab fa-css3-alt skills-icon"></i> CSS</div>
+        <div class="st-font1 skills" href="#"><i class="fab fa-js skills-icon"></i> JavaScript</div>
+        <div class="st-font1 skills" href="#"><i class="fab fa-bootstrap skills-icon"></i> Bootstrap</div>
+        <div class="st-font1 skills" href="#"><i class="fas fa-database skills-icon"></i> MongoDB</div>
+        <div class="st-font1 skills" href="#"><i class=""></i> Express</div>
+        <div class="st-font1 skills" href="#"><i class="fab fa-react skills-icon"></i> React</div>
+        <div class="st-font1 skills" href="#"><i class="fab fa-node-js skills-icon"></i> NodeJS</div>
+        <div class="st-font1 skills" href="#"><i class="fab fa-java skills-icon i-color mx-2"></i>Java</div>
+        <div class="st-font1 skills" href="#"><i class="fab fa-python skills-icon i-color mx-2"></i>Python</div>
+        <div class="st-font1 skills" href="#"><i class="fab fa-github skills-icon i-color mx-2"></i>Github</div>
+</div>
+
+    </div>
+   </div>
+   <!-- End Main Content -->
+        </div>
+    </div>
+</div>
+<%- include('./partials/footer.ejs') %>
