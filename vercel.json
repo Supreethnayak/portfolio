@@ -1,13 +1,15 @@
 {
     "version": 2,
-    "builds":[{
-        "src": "./views/home.ejs",
-        "use": "@verecel/node"
-    }],
+    "builds":[
+        {
+            "src": "./app.ejs",
+            "use": "@verecel/node"
+        }
+    ],
     "routes":[
         {
-            "src":"/(.*)",
-            "dest": "/"
+            "src":"/.*",
+            "dest": "app.js"
         }
     ]
 }
